@@ -40,7 +40,7 @@ header > h1{
 
 header > p{
     text-align: center;
-    max-width: 640px;
+    max-width: 570px;
     margin: auto;
     font-size: 1.3em;
     font-family: var(--font02);
@@ -73,14 +73,48 @@ main{
     margin: auto;
     background-color: white;
     max-width: 800px;
-    min-width: 400px;
+    min-width: 320px;
+}
+
+main p {
+    font-size: 18px;
+    line-height: 1.3em;
+    padding: 15px;
+    text-indent: 1em;
+    margin: 5px;
+}
+
+main a{
+    border-radius: 3px;
+    color: var(--cor05);
+    padding: 2px 5px;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: var(--cor02);
+}
+
+main a:hover{
+    color: white;
+    background-color: var(--cor04);
+}
+
+main a::after{
+    content: '🔗';
 }
 
 main > h1{
     font-size: 1.5em;
 }
 
+.destaque{
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: var(--cor05);
+}
+
+
 .subtitulos{
+    padding: 5px 15px ;
     color: var(--cor05);
     font-family: var(--font03);
 }
@@ -94,26 +128,11 @@ h2{
 
 }
 
-main p {
-    padding: 15px;
-    text-indent: 1em;
-    margin: 5px;
-}
 
-main a{
-    color: var(--cor05);
-    padding: 3px 5px;
-    font-weight: bolder;
-    text-decoration: none;
-    background-color: var(--cor02);
-}
-
-mainoi 
 
 img{
     display: block;
-    margin: auto
-    ;
+    margin: auto;
 }
 
 
