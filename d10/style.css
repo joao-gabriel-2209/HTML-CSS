@@ -108,6 +108,10 @@ main > h1{
     font-size: 1.5em;
 }
 
+#video{
+    min-width: 400px;
+}
+
 .destaque{
     font-weight: bolder;
     font-size: 1.2em;
