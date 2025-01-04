@@ -182,7 +182,7 @@ footer{
     padding: 5px;
     margin-top: 15px;
     text-align: center;
-    background-color: black;
+    background-color: var(--cor04);
     color: white;
 }
 
