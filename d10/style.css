@@ -20,7 +20,7 @@
 }
 
 *{
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
 }
@@ -72,7 +72,7 @@ body{
 }
 
 main{
-    padding: 15px;
+    padding: 5px;
     margin: auto;
     background-color: white;
     max-width: 800px;
@@ -80,7 +80,6 @@ main{
 }
 
 main p {
-    font-size: 14px;
     line-height: 1.3em;
     padding: 5px;
     text-indent: 1em;
