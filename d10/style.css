@@ -82,7 +82,7 @@ main{
 main p {
     font-size: 14px;
     line-height: 1.3em;
-    padding: 15px;
+    padding: 5px;
     text-indent: 1em;
     margin: 5px;
 }
@@ -129,6 +129,7 @@ main > h1{
 }
 
 .destaque{
+    padding: 5px 15px;
     font-weight: bolder;
     font-size: 1.2em;
     color: var(--cor05);
