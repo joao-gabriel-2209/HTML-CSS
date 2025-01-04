@@ -133,11 +133,17 @@ h2{
 
 }
 
-
-
 img{
+    display: inline;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+}
+
+#robo{
     display: block;
     margin: auto;
+    
 }
 
 
