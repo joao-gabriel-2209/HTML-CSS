@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 97vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-size: cover;/*aqui eu coloquei para que a imagem cubra 100% da caixa, mesmo que recorte a imagem*/
-            background-repeat: no-repeat;
-            background-position: center center;
+
+            /*shorthand: color > image > position > repeat > attachment
+            
+            background-size deve ser usado separado, já que não funciona nas shorthand
+            */
+
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed ;
+
+            background-size: cover;
         }
         main{
             background-color: white;
@@ -20,6 +23,8 @@
             border-radius: 20px;
             text-align: justify;
             margin: auto;
+            margin-bottom: 20px
+            ;
             border: 2px solid black;
             box-shadow:0px 0px 16px 8px rgba(0, 0, 0, 0.597);
         }
@@ -32,7 +37,7 @@
         <h1>Teste de Imagem de fundo</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere vel illum doloremque, id quae eaque? Perspiciatis nemo nihil totam distinctio assumenda esse earum, saepe perferendis commodi quidem corporis tempora error! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque est repellendus iusto aliquid consequatur unde tempore aspernatur magnam consequuntur, obcaecati minima delectus sint! Natus nisi quidem ex repellendus mollitia labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sunt, dolor eveniet est porro debitis adipisci optio maxime corporis qui necessitatibus accusamus voluptatibus tempora laboriosam aliquam assumenda earum laborum nemo?
         </p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta maiores error excepturi sequi officia obcaecati, voluptates illum iusto perspiciatis, ut earum magnam? Obcaecati culpa deleniti laborum doloremque, nam eaque at.</p>
     </main>
 </body>
 </html>
