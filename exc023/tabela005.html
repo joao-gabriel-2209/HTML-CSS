@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização de colunas</title>
+    <style>
+
+        tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+        table{
+            border-spacing: 3px;
+        }
+        td{
+            
+            font-size: 2em;
+            padding: 10px;
+            border: 1px black solid;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="c1">
+            <col class="c2">
+            <col class="c3">
+            <col class="c4">
+            <col class="c5">
+        </colgroup>
+
+        <tr>
+            <td>1a</td>
+            <td>1b</td>
+            <td>1c</td>
+            <td>1d</td>
+            <td>1e</td>
+        </tr>
+        <tr>
+            <td>2a</td>
+            <td>2b</td>
+            <td>2c</td>
+            <td>2d</td>
+            <td>2e</td>
+        </tr>
+        <tr>
+            <td>3a</td>
+            <td>3b</td>
+            <td>3c</td>
+            <td>3d</td>
+            <td>3e</td>
+        </tr>
+        <tr>
+            <td>4a</td>
+            <td>4b</td>
+            <td>4c</td>
+            <td>4d</td>
+            <td>4e</td> 
+        </tr>
+        <tr>
+            <td>5a</td>
+            <td>5b</td>
+            <td>5c</td>
+            <td>5d</td>
+            <td>6e</td>
+        </tr>
+    </table>
+</body>
+</html>

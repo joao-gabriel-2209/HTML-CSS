@@ -6,6 +6,7 @@
     <title>Trabalhando com grandes tabelas</title>
     <style>
         table{
+            position: relative;
             border: 2px black solid;
             margin: auto;
             border-collapse: collapse;
@@ -32,10 +33,15 @@
         }
 
         thead, tfoot{
-            background-color: grey;
+            background-color: #808080;
             color: white;
         }
         
+        thead tr th{ /*aqui eu seleciono oque eu desejo fixar na parte de cima*/
+            top: 0 ;/*aqui significa que quando chegar no pixel 0, o cabeçalhoo ira continuar na tela*/
+            position: sticky;/*aqui significa que o cabeçalho ira "grudar"*/
+            background-color: grey;
+        }
         .numero{
             text-align: right;
         }
