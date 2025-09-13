@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            border: solid black 2px;
+            width: 98vw;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat ut quaerat corporis possimus minima dolorem veritatis libero impedit! Reiciendis quaerat quasi mollitia, quisquam delectus officia doloremque dolorum voluptatibus cumque iusto.</p>
+
+    <ul>
+        <li><a target="tela" href="paginas-ext/pag01.html">Abrir a lista de vendas Geral</a></li>
+        <li><a target="tela" href="paginas-ext/pag02.html">Segunda página</a></li>
+        <li><a target="tela" href="paginas-ext/pag03.html">Terceira Página</a></li>
+        <li><a target="tela" href="paginas-ext/pag04.html">Quarta Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quis repellendus earum officiis autem dignissimos odit hic culpa omnis! Labore suscipit ullam obcaecati illum pariatur odio cumque aperiam architecto ducimus.</p>
+<!--após atribur nome a esse iframe, eu posso criar links para dentro deles, baste usar target="..."-->
+    <iframe name="tela"
+        src="" frameborder="0" >
+        <p>infelizmente o seu navagador não é compatível com Iframes</p>
+    </iframe>
+</body>
+</html>
