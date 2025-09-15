@@ -11,7 +11,10 @@
         iframe{
             border: solid black 2px;
             width: 98vw;
-            height: 300px;
+            height: 450px;
+        }
+        h1{
+            text-align: center;
         }
     </style>
 </head>
@@ -29,8 +32,19 @@
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quis repellendus earum officiis autem dignissimos odit hic culpa omnis! Labore suscipit ullam obcaecati illum pariatur odio cumque aperiam architecto ducimus.</p>
 <!--após atribur nome a esse iframe, eu posso criar links para dentro deles usar target="..."-->
     <iframe name="tela"
-        src="" frameborder="0" >
-        <p>infelizmente o seu navagador não é compatível com Iframes</p>
+        srcdoc="
+            <h1>escolha uma das opções acima </h1>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, deserunt omnis. Quidem blanditiis obcaecati reiciendis, odit rerum accusantium molestias aliquam quas molestiae placeat. Nemo commodi delectus corporis, fugit sit laborum?</p> 
+
+            <img src='imagens/cursoemvideo.png'>"
+            
+        frameborder="0"> <p>infelizmente o seu navagador não é compatível com Iframes</p>
     </iframe>
+
+    <!--<iframe
+        src="https://www.google.com/maps/embed?pb=!4v1757896986821!6m8!1m7!1s1ivmvcEjXgX0tz2asigP-g!2m2!1d-28.50328071693744!2d-50.93041326320051!3f261.1214!4f0!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>-->
+
 </body>
 </html>
