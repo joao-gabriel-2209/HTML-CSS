@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: url(../imagens/fundo-madeira.jpg)
+    no-repeat top center;
+    background-size: cover;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+}
+
+section#celular{
+    position: absolute;/*aqui eu coloco para conseguir definir a posiçao da caixa*/
+
+    top: 50%;/*aqui coloco ele em 50% da altura, ou seja no meio*/
+
+    left: 50%;/*aqui eu coloco com 50% da largura, no meio*/
+
+    transform: translate(-50%, -50%);/*mas como ficaria a ponta dele no meio, eu tiro metade da altura e da largura da imagem, para ficare exatamente no meio*/
+
+    height: 627px;
+    width: 311px;
+    background-color: darkred;
+    background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+}
+position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
