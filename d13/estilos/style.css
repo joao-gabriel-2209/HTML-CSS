@@ -5,7 +5,6 @@
     padding: 0px;
 }
 
-
 html, body{
     height: 100vh;
     width: 100vw;
@@ -40,9 +39,8 @@ main{
 #aplicativos img{
     position: relative;
     border-radius: 50px;
-    margin: 5px;
-    height: 50px;
-    width: 50px;
+    margin: 1vh 15px;
+    height: 8vh;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.462);
     box-sizing: border-box;
 }
@@ -77,6 +75,6 @@ iframe#tela{
     position: relative;
     top: 316px;
     left: 155px;
-    width: 266px;
+    width: 267px;
     height: 471px;
 }
