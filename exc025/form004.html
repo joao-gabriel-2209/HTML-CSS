@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros modelos de formulários</title>
+</head>
+<body>
+    <form action="@" method="get" >
+        <p>
+            <label for="imod">Modelo do celular:</label>
+            <select name="modelo" id="imod">
+                <option value="">Escolha...</option>
+                <optgroup label="Apple">
+                    <option value="opn16">iphone16</option>
+                    <option value="opn16p">iphone16 pro</option>
+                </optgroup>
+                <optgroup label="Samsung" >
+                    <option value="sams20">Samsung s20</option>
+                    <option value="sams20+">Samsung s20+</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="idesc">Especificações técnicas: </label>
+            <textarea name="desc" id="idesc" rows="20" cols="40" ></textarea>
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="ilprof">
+                <datalist id="ilprof">
+                    <option value="">Escolha...</option>
+                    <option value="professor"></option>
+                    <option value="diretor"></option>
+                    <option value="coordernador"></option>
+                    <option value="medico"></option>
+                    <option value="enfermeiro"></option>
+                    
+                </datalist>
+            
+        </p>
+       
+    </form>
+</body>
+</html>

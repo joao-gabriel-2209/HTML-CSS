@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>output</title>
+</head>
+<body>
+    <form action="@" method="get" oninput="itot.value = Number(iquant.value ) * Number(ival.value)">
+        <label for="iprod">Produto: </label>
+        <input name="prod" id="iprod" type="text"><br>
+        <label for="ival">Valor: </label>
+        <input name="val" id="ival" type="number"><br>
+        <label for="iquant">Quantidade: </label>
+        <input name="quant" id="iquant" type="number"><br>
+        <label for="itot">Valor total: </label>
+        <output name="tot" id="itot">0</output> <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="cancelar">
+    </form>
+</body>
+</html>
