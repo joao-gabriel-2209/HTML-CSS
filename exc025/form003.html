@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form autocomplete="on" method="get" action="#" >
+        <p>
+            <label for="inome">Nome: </label>
+            <input autocomplete="name" placeholder="Nome completo"  id="inome" name="nome" type="text">
+        </p>
+        <p>
+            <label for="iturma">Turma: </label>
+            <input name="Turma" id="iturma" type="number">
+        </p>
+        <p>
+            <label for="inota">Nota: </label>
+            <input name="nota" id="inota" type="number" step="0.1" max="10" min="0"   >
+        </p>
+        <p>
+            <input type="submit" value="enviar" > <input type="reset" value="cancelar">
+        </p>
+    </form>
+</body>
+</html>
