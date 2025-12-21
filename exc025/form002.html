@@ -11,34 +11,34 @@
     </style>
 </head>
 <body>
-    <form autocomplete="off" method="get" action="#">
-        <p><label for="ifoto">Foto de perfil: </label><input id="ifoto" name="foto" type="file" accept="image/*"></p>
+    <form autocomplete="off" method="post" action="#">
+        <p><label for="ifoto">Foto de perfil: </label><input  required id="ifoto" name="foto" type="file" accept="image/*"></p>
 
         <p>
-        <label for="iidade">Idade: </label><input type="number" value="25" min="18" max="120" id="iidade" name="idade"></p>
+        <label for="iidade">Idade: </label><input autocomplete="" required type="number" min="18" max="120" id="iidade" name="idade"></p>
 
         <P>
             <fieldset> <legend>Sexo: </legend>
-                <p><label for="imasc">Masculino</label> <input name="Sexo" id="imasc" type="radio"> <br><label for="ifem">Feminino</label> <input checked name="Sexo" id="ifem" type="radio"> <br> <label for="iout">Outro</label> <input name="Sexo" id="iout" type="radio"></p>
+                <p><label for="imasc">Masculino</label> <input autocomplete="sex" name="Sexo" id="imasc" type="radio"> <br><label for="ifem">Feminino</label> <input checked name="Sexo" id="ifem" type="radio"> <br> <label for="iout">Outro</label> <input name="Sexo" id="iout" type="radio"></p>
             </fieldset>
         </P>
-        <p><label for="itel">Telefone: </label><input name="telefone" id="itel" type="tel" pattern="\([0-9]{2}\) ([\s]) [0-9]{1}  ([\s]) [0-9]{4}-[0-9]{4}" placeholder="(xx) x xxxx-xxxx"></p>
+        <p><label for="itel">Telefone: </label><input autocomplete="tel" required name="telefone" id="itel" type="tel" pattern="\([0-9]{2}\) ([\s]) [0-9]{1}  ([\s]) [0-9]{4}-[0-9]{4}" placeholder="(xx) x xxxx-xxxx"></p>
 
-        <P><label for="iemail">E-mail: </label> <input maxlength="50" name="email" id="iemail" type="text"></P>
+        <P><label for="iemail">E-mail: </label> <input autocomplete="email" required maxlength="50" name="email" id="iemail" type="text"></P>
 
-        <p><label for="isenha">Senha: </label> <input type="password" min="1" max="8"></p>
+        <p><label for="isenha">Senha: </label> <input autocomplete="current-password" required type="password" min="1" max="8"></p>
 
-        <P><label for="imes">Mês de Aniversário</label> <input id="imes" name="mes" type="month"></P>
+        <P><label for="imes">Mês de Aniversário</label> <input autocomplete="bday-month" required id="imes" name="mes" type="month"></P>
 
-        <p><label for="idia">Dia da compra</label><input min="1" max="31" id="idia" name="dia" type="number"></p>
+        <p><label for="idia">Dia da compra</label><input required min="1" max="31" id="idia" name="dia" type="number"></p>
 
-        <p><label for="ihora">Hora da compra: </label><input name="hora" id="ihora" type="time"></p>
+        <p><label for="ihora">Hora da compra: </label><input required name="hora" id="ihora" type="time"></p>
 
-        <p><label for="icor">Cor: </label> <input id="icor" name="cor" type="color"></p>
+        <p><label for="icor">Cor: </label> <input required id="icor" name="cor" type="color"></p>
 
-        <p><label for="isats">Nivel de satisfação: </label> <input id="isats" name="sats" type="range" value="10" min="1" max="10"></p>
+        <p><label for="isats">Nivel de satisfação: </label> <input required id="isats" name="sats" type="range" value="10" min="1" max="10"></p>
 
-        <p><input name="termos" id="itermos" type="checkbox"> <label for="itermos">Aceito os <a href="termos.html">termos</a> de uso</label> </p>
+        <p><input required name="termos" id="itermos" type="checkbox"> <label for="itermos">Aceito os <a href="termos.html">termos</a> de uso</label> </p>
 
         <p><input type="submit" value="Finalizar compra"> <input type="reset" value="Cancelar"></p>
 
