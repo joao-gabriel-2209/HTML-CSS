@@ -6,6 +6,10 @@
     <title>Formulários</title>
 
     <style>
+        form{
+            
+        }
+
         #dadosp input{
             margin: 2px;
             display: block;
@@ -14,21 +18,21 @@
     </style>
 </head>
 <body>
-    <form id="dadosp" method="get" action="#" >
+    <form  id="dadosp" method="get" autocomplete="off" action="#">
         <label for="camponome">Primeiro nome: </label>
         <input type="text" name="tnome" id="camponome">
 
         <label for="camposobr">Sobrenome</label>
-        <input type="text" name="tsobr" id="camposobr  ">
+        <input type="text" name="tsobr" id="camposobr">
 
         <label for="campocpf">CPF: </label>
-        <input type="number" name="tcpf" id="campocpf">
-
-        <label for="camponum">Número</label>
-        <input type="number" name="tnum" id="camponum" >
+        <input type="number5" name="tcpf" id="campocpf">
 
         <label for="campoend">Endereço</label>
         <input type="text" name="campoend" id="campoend" >
+
+        <label for="camponum">Número</label>
+        <input type="number" name="tnum" id="camponum" >
 
         <input type="submit" value="enviar">
 
