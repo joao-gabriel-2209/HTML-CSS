@@ -7,6 +7,10 @@
 
 <a href="https://joao-gabriel-2209.github.io/HTML-CSS/d10/"> Desafio 10</a>
 
+<a href="https://joao-gabriel-2209.github.io/Projeto-Cordel/"> Desafio 12</a>
+
+
+
 <a href="https://joao-gabriel-2209.github.io/HTML-CSS/exc022/"> Exercicío 22 </a>
 
-<a href="https://joao-gabriel-2209.github.io/Projeto-Cordel/"> Desafio 12</a>
+<a href="https://joao-gabriel-2209.github.io/HTML-CSS/exc025/"> Exercicío 25</a>
