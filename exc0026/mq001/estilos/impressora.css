@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Estilos para impressoes*/
+
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+html{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+menu{
+    display: none;/*faz com que quando for imprimir essa pagina do site não imprima o menu, já que é inutil*/
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
