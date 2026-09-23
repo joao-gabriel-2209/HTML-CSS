@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 h1{
-    background-color: aliceblue;
+    color: white;
+    background-color: #233eff;
     display: inline-block;
     padding: 10px;
     border-radius: 5px;
